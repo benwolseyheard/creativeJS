@@ -20,11 +20,12 @@ signUp();
 let maxNum = Math.max(1, 5);
 console.log(maxNum);
 
-function max(n1, n2) {
+function max(n1 = 0, n2 = 2) {
 	if (n1 > n2) {
-		return n1;
+		return `${n1} is greater than ${n2}`;
 	} else {
-		return n2;
+		return `${n1} is less than ${n2}`;
 	}
 }
 let inbox = max(1, 5);
+console.log(inbox);
