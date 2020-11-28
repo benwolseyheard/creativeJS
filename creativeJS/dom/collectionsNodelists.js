@@ -32,6 +32,7 @@ todoList.appendChild(newItem); // Append the new element to existing list
 const todoNr = document.getElementsByClassName("todo-nr")[0]; //Select the first element with this class
 todoNr.innerText = collectionItems.length; //todo number is equal to the length of the colletionItems array
 
+/*
 //If we had used querySelector the number would not automatically update itself. It is not DYNAMIC, it is STATIC
 
 const todoList = document.querySelector("#todo-list");
@@ -39,3 +40,4 @@ const todoList = document.querySelector("#todo-list");
 const items = todoList.childern;
 console.log(items);
 const todoNr = document.querySelector(".todo-nr");
+*/
