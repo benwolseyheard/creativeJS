@@ -10,10 +10,10 @@ let fruits = 5;
 function store() {
 	let food = "banana";
 	let fruits = 10;
-	console.log(food, fruit);
+	console.log(food, fruits);
 }
 
-console.log(food, fruit);
+console.log(food, fruits);
 store();
 
 //BLOCK SCOPE
