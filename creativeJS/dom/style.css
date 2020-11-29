@@ -1,0 +1,10 @@
+/** @format */
+
+.title {
+	background-color: aliceblue;
+	font-size: 2.5rem;
+	color: aqua;
+}
+.mainTitle {
+	transition: all 0.5s ease;
+}
