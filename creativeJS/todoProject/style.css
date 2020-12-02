@@ -78,3 +78,9 @@ form button:hover {
 .todoItem {
 	padding: 0rem 0.5rem;
 }
+
+/* Fixing issue with delete button */
+.fa-trash,
+.fa-check {
+	pointer-events: none;
+}
