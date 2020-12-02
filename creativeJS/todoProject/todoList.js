@@ -46,10 +46,14 @@ function deleteCheck(event) {
 	if (item.classList[0] === "deleteBtn") {
 		// Select parent element of button
 		const todo = item.parentElement;
-		// Remove parent (div) element
-		todo.remove();
+		// Add Animation class
+		todo.classList.add("fall");
+		todo.addEventListener("transitionend", function () {
+			// Remove parent (div) element
+			todo.remove();
+		});
 	}
-	if (item.classList[0] === "completeBtn") {
+	if (item.classList[0] === "completedBtn") {
 		// Select parent element of button
 		const todo = item.parentElement;
 		// Adding/Removing complete class (chnage visuals)

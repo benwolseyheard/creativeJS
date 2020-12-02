@@ -60,6 +60,8 @@ form button:hover {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	/* Animation */
+	transition: all 0.5s ease;
 }
 .todo li {
 	flex: 1;
@@ -83,4 +85,16 @@ form button:hover {
 .fa-trash,
 .fa-check {
 	pointer-events: none;
+}
+
+/* Check mark button function */
+.completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+/* Animation */
+.fall {
+	transform: translateY(8rem) rotateZ(20deg);
+	opacity: 0;
 }
