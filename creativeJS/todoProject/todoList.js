@@ -30,8 +30,8 @@ function addTodo(event) {
 
 	// Delete Button
 	const deleteBtn = document.createElement("button");
-	completedBtn.innerHTML = '<i class="fas fa-trash"></i>';
-	completedBtn.classList.add("deleteBtn");
+	deleteBtn.innerHTML = '<i class="fas fa-trash"></i>';
+	deleteBtn.classList.add("deleteBtn");
 	todoDiv.appendChild(deleteBtn);
 
 	// Append to List
